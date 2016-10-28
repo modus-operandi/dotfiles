@@ -3,3 +3,4 @@ config.py
 *.pyc
 rvm/.rvm
 zsh/.zshsecrets
+bash/.bashsecrets
