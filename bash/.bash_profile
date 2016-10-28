@@ -9,9 +9,11 @@ fi
 
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 WORKON_HOME=~/.pyenvs
+GIT_EDITOR=vim
 
 export WORKON_HOME
 export PATH
+export GIT_EDITOR
 
 source /usr/bin/virtualenvwrapper.sh
 source ~/.bashsecrets

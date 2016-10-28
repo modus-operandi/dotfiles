@@ -11,9 +11,10 @@ export SAVEHIST=10000
 export SHELL="zsh"
 export LESSHISTFILE="-"
 export PAGER="less"
-export VISUAL="emacs"
+export VISUAL="vim"
 export EDITOR=$VISUAL
 export BROWSER="chromium"
+export GIT_EDITOR=vim
 #export TERM="xterm-256color"
 # }}}
 
