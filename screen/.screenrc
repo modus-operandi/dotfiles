@@ -1,0 +1,18 @@
+hardstatus on
+hardstatus string "%{gK} >> %{gK}%-Lw%{gK}%50>%{Kg}%n%f* %t%{-}%+Lw%<%{- Wk}%{gK} %=%M %d %c"
+hardstatus alwayslastline
+#caption    always "%{= kw}%?%-Lw%?%{+b kw}%n*%t%f %?(%u)%?%{= kw}%?%+Lw%?"
+termcapinfo xterm|xterms|xs|rxvt-unicode|rxvt ti@:te@
+
+logfile $HOME/.logs/screen-%Y%m%d-%n.log
+deflog on
+crlf off                        # no thanks.                            #
+startup_message off             # don't want this either.               #
+defscrollback 1000              # please sir, can i have some more?     #
+shell -$SHELL                   # i'll take my default shell.           #
+defmonitor off                   # turn monitoring on                    #
+vbell off
+nethack on
+autodetach on
+
+shelltitle '$ |bash'  
