@@ -98,6 +98,11 @@ zstyle ':completion:*:cd:*' ignore-parents parent pwd
 zstyle ':completion:*' list-colors ''
 # }}}
 
+# {{{ Binds
+bindkey -v
+bindkey '^R' history-incremental-search-backward
+# }}}
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 function aws-instances-describe() {
