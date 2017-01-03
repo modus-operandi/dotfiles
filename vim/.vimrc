@@ -30,6 +30,13 @@ set laststatus=2
 set t_Co=256
 set term=screen-256color
 
+" bind a key for paste mode
+map <F10> :set paste<CR>
+map <F11> :set nopaste<CR>
+imap <F10> <C-O>:set paste<CR>
+imap <F11> <nop>
+set pastetoggle=<F11>
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
